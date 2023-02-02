@@ -19,7 +19,9 @@
   "dependencies": {
     "@apollo/server": "^4.3.2",
     "@prisma/client": "^4.9.0",
+    "fs": "^0.0.1-security",
     "graphql": "^16.6.0",
-    "graphql-tag": "^2.12.6"
+    "graphql-tag": "^2.12.6",
+    "path": "^0.12.7"
   }
 }

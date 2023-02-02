@@ -1,0 +1,13 @@
+type Post {
+    id: String
+    title: String
+    username: String
+}
+
+type Query {
+    getAllPosts: [Post]
+}
+
+type Mutation {
+    createPost(title: String, username: String): Post
+}
