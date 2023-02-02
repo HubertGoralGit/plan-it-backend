@@ -1,13 +1,14 @@
-type Post {
+type Todo {
     id: String
     title: String
-    username: String
 }
 
 type Query {
-    getAllPosts: [Post]
+    getAllTodos: [Todo]
 }
 
 type Mutation {
-    createPost(title: String, username: String): Post
+    createTodo(title: String): Todo
+    removeTodo(id: String): Todo
+    editTodo(id: String, title: String): Todo
 }

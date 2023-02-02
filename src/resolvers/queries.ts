@@ -1,1 +1,1 @@
-export * from './post/queries';
+export * from './todo/queries';
